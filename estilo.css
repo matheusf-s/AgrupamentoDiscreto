@@ -1,0 +1,162 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	/*background-color: #D6E4F0;*/
+	font-family: 'Open Sans', sans-serif;
+}
+
+body{
+	background-color: #D6E4F0;
+}
+
+h1{
+	height: 80px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0px solid black;
+    border-radius: 18px 18px 0 0;
+    background-color: #e9f2f6;
+}
+
+#barra-top{
+    align-items: center;
+    justify-content: center;
+	border-radius: 26px;	
+}
+
+#tudo{
+	position: absolute;
+	top: 40%;
+	left: 45%;
+	transform: translate(-50%, -50%);
+    align-items: center;
+    justify-content: center;
+	background-color: #e9f2f6;
+	border-radius: 30px;
+	height: 550px;
+	width: 1050px;
+	margin: 30px;
+	box-shadow: 10px 5px 5px gray;
+}
+
+#painel-entrada{
+	margin: 30px 0 30px 30px;
+	padding: 20px;
+	border: 2px solid black;
+	float: left;
+	border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    width: 340px;
+    text-align: center;
+    box-shadow: 3px 2px 2px gray;
+}
+
+#painel-fi{
+	float: right;
+	display: inline;
+
+}
+
+#painel-xi{
+	float: left;
+
+}
+
+#painel-saida{
+	margin: 30px 30px 30px 0;
+	padding: 20px;
+	border: 2px solid red;
+	float: right;
+	border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    text-align: center;
+   	box-shadow: 10px 5px 5px gray;
+}
+
+
+input[type="number"],input[type="text"]{
+	text-decoration: none;
+	width: 80px;
+	border: 2px solid #C0D0E0;
+	padding: 4px;
+	border-radius: 8px;
+	margin: 2px;
+}
+
+button{
+	background-color: #7B88D3;
+	display: block;
+	float: left;
+	width: 159px;
+	height: 25px;
+	font-weight: bold;
+	font-family: sans-serif;
+	border-radius: 10px;
+	margin-left: 8px;
+	position: fixed;
+	top: 62%;
+	left: 45%;
+}
+
+#remove-btn{
+	left: 62%;
+}
+#add-btn{
+	left: 79%;
+}
+
+th, table, tr, h2, input, #painel-entrada, #painel-saida{
+	background-color: white;
+}
+
+.esquerda{
+	text-align: left;
+}
+
+.direita{
+	text-align: right;
+
+	float: right;
+}
+
+
+button:hover{
+	background-color: #95a0e0;
+}
+
+
+.checklist{
+	position: fixed;
+	top: 67%;
+	left: 45%;
+	margin: 10px;
+	float: left;
+	display: inline-block;
+	border: 1px solid black;
+	border-radius: 20px;
+	box-shadow: 10px 5px 5px gray;
+	padding: 10px;
+	padding-right: 20px;
+}
+
+input[type="checkbox"] {
+	accent-color: #4caf50;
+	cursor: pointer;
+}
+
+/*th.direita{
+	float: right;
+}
+*/
+
+ul{
+	text-decoration: none;
+}
+
+li{
+	padding: 1px;
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Agrupamento Discreto</title>
+	<meta charset="utf-8">
+	<!-- Estilo customizado -->
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+
+
+	</head>
+	<body>
+
+		<div id="tudo">
+			
+			
+			<div  id="barra-top">
+					
+				<h1>Cálculos Estatísticos</h1>
+
+			</div>
+
+
+			<div id="painel-entrada">
+				
+				<h2>Painel de Entrada</h2>
+
+				<div id="painel-xi">
+
+	        		<h2>Xi</h2>
+	        		<div id="inputs-xi">
+		                <input type="number" name="xi[]"><br>
+		                <input type="number" name="xi[]"><br>
+		                <input type="number" name="xi[]"><br>
+		                <input type="number" name="xi[]"><br>
+		                <input type="number" name="xi[]"><br>
+	            	</div>
+
+                </div>
+
+
+
+                <div id="painel-fi">
+
+
+					<h2>Fi</h2>
+					<div id="inputs-fi">
+		                <input type="text" name="fi[]"><br>
+		                <input type="number" name="fi[]"><br>
+		                <input type="number" name="fi[]"><br>
+		                <input type="number" name="fi[]"><br>
+		                <input type="number" name="fi[]"><br>
+	                </div>
+            	</div>
+
+			</div>
+
+
+			<div id="painel-saida">
+				
+
+				<h2>Painel de Resultados</h2>
+
+
+				<table>
+					
+
+					<tr>
+						<th class="esquerda">Média</th>
+						<th>=</th>
+						<th class="direita", id="ResultadoMedia">--------</th>
+					</tr>
+					<tr>
+						<th class="esquerda">Mediana</th>
+						<th>=</th>
+						<th class="direita", id="ResultadoMediana">--------</th>
+					</tr>
+					<tr>
+						<th class="esquerda">Moda</th>
+						<th>=</th>
+						<th class="direita", id="ResultadoModa">--------</th>
+					</tr>
+					<tr>
+						<th class="esquerda">Variância</th>
+						<th>=</th>
+						<th class="direita", id="ResultadoVariancia">--------</th>
+					</tr>
+
+					<tr>
+						<th class="esquerda">Desvio Padrão</th>
+						<th>=</th>
+						<th class="direita", id="ResultadoDesvioPadrao">--------</th>
+					</tr>
+					<tr>
+						<th class="esquerda">Coeficiente de Variação</th>
+						<th>=</th>
+						<th class="direita", id="CoeficienteDeVariacao">----</th>
+					</tr>
+
+				</table>
+
+
+
+
+
+			</div>
+
+			<div>
+				<button id="botao">Calcular!</button>
+				<button id="remove-btn">Remover último Xi/Fi</button>
+				<button id="add-btn">Adicionar Xi/Fi</button>
+			</div>
+
+
+			<div>
+			
+				<ul class="checklist">
+					<input type="checkbox" name="Media" id="Media"><label for="Media"> Média</label><br>
+					<input type="checkbox" name="Mediana" id="Mediana"><label for="Media"> Mediana</label><br>
+					<input type="checkbox" name="Moda" id="Moda"><label for="Media"> Moda</label><br>
+					<input type="checkbox" name="Variancia" id="Variancia"><label for="Media"> Variância</label><br>
+					<input type="checkbox" name="Desvio" id="Desvio"><label for="Media"> Desvio Padrão</label><br>
+					<input type="checkbox" name="Coeficiente" id="Coeficiente"><label for="Media"> Coeficiente de Variação</label><br>
+					<input type="checkbox" name="Todos" id="Todos"><label for="Media"> Todas as opções</label><br>
+				</ul>
+
+			</div>
+
+		</div>
+		
+
+
+		<script type="text/javascript" src="script.js"></script>
+
+
+	</body>
+</html>
