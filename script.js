@@ -194,10 +194,10 @@ function calcular(){
 
 
 
-    if (checkboxvariancia.checked){
+    if (checkboxcoeficiente.checked){
         document.getElementById("CoeficienteDeVariacao").innerText = CoeficienteArredondado ;
     }
-    if (!checkboxvariancia.checked && !checkboxtodos.checked){
+    if (!checkboxcoeficiente.checked && !checkboxtodos.checked){
         document.getElementById("CoeficienteDeVariacao").innerText = "Calculo não solicitado";
     }
     
